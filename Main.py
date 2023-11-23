@@ -73,7 +73,7 @@ class JavaScriptRunner(QObject):
 
     def handleJavaScriptResult(self, result):
         self.JavaScriptReslut.append(result)
-        print("JavaScript 返回值：", result)
+        #print("JavaScript 返回值：", result)
 
 
 
